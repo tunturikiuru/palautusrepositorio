@@ -15,9 +15,10 @@ def main():
             player = Player(player_dict)
             players.append(player)
 
-    print("Players from FIN\n")
+    sorted_players = sorted(players, reverse = True, key= lambda player: player.goals + player.assists)
 
-    for player in players:
+    print("Players from FIN\n")
+    for player in sorted_players:
         print(player)
 
 if __name__ == "__main__":
