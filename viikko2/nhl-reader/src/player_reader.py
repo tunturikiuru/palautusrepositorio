@@ -15,3 +15,9 @@ class PlayerReader:
             players.append(player)
         
         return list(players)
+    
+    def get_nationalities(self):
+        nationalities = set([player.nationality for player in self.players])
+
+        return '/'.join(nationalities)
+    
