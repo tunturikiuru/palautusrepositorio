@@ -16,3 +16,4 @@ print(f"{x} * {y} = {tulo(x, y)}")
 
 logger("lopetetaan")
 print("bugikorjaus") #lisäys bugikorjaus-branchissa
+print("loppu")
