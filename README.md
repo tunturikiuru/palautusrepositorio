@@ -1,1 +1,1 @@
-https://github.com/tunturikiuru/webcounter
+https://github.com/tunturikiuru/webcounter1
