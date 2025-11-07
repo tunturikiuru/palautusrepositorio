@@ -19,7 +19,7 @@ Login With Incorrect Password
 
 Login With Nonexistent Username
     Set Username  kall
-    Set Password  kalle456
+    Set Password  kalle123
     Click Button  Login
     Login Should Fail With Message  Invalid username or password
 
