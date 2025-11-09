@@ -19,7 +19,7 @@ def main():
     # seuraava asiakas
     kauppa.aloita_asiointi()
 
-    for _ in range(0, 24):
+    for _ in range(0, 2):
         kauppa.lisaa_koriin(5)
 
     kauppa.tilimaksu("Arto Vihavainen", "3425-1652")
